@@ -38,7 +38,7 @@ module.exports = {
         .find({
             where: {
                 id: req.params.actionId,
-                habitIdL req.params.habitId
+                habitId: req.params.habitId
             },
         })
         .then( action => {
